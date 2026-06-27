@@ -1,0 +1,6 @@
+{
+  "name": "AG Group للصيانة المحلية",
+  "description": "منصة متطورة وتفاعلية لطلب خدمات الصيانة المنزلية (سباكة، نجارة، كهرباء، تكييف) مع لوحة تحكم كاملة لإدارة الطلبات والخدمات والفنيين",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

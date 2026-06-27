@@ -1,0 +1,222 @@
+{
+  "services": [
+    {
+      "id": "plumbing",
+      "name": "سباكة وصيانة صحية",
+      "icon": "Droplets",
+      "description": "تأسيس وتمديد شبكات المياه، صيانة فلاتر، معالجة التسريبات، تركيب مغاسل وخلاطات وبانيو.",
+      "basePrice": 150,
+      "isActive": true,
+      "subServices": [
+        {
+          "id": "p1",
+          "name": "تصليح تسريب مياه أو محبس",
+          "price": 120
+        },
+        {
+          "id": "p2",
+          "name": "تركيب خلاط مياه جديد",
+          "price": 200
+        },
+        {
+          "id": "p3",
+          "name": "تسليك بالوعات وصرف صحي",
+          "price": 150
+        },
+        {
+          "id": "p4",
+          "name": "تركيب فلتر مياه 5 أو 7 مراحل",
+          "price": 250
+        },
+        {
+          "id": "p5",
+          "name": "صيانة وتغيير قلب خلاط",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "name": "كهرباء وإنارة منزلية",
+      "icon": "Zap",
+      "description": "تركيب نجف ومراوح، تصليح شورت كهربائي، تركيب وتغيير الكوابل والمفاتيح وتشييك كامل على لوحة الكهرباء.",
+      "basePrice": 100,
+      "isActive": true,
+      "subServices": [
+        {
+          "id": "e1",
+          "name": "تحديد وتصليح قفلة كهربائية",
+          "price": 250
+        },
+        {
+          "id": "e2",
+          "name": "تركيب نجفة أو مروحة سقف",
+          "price": 150
+        },
+        {
+          "id": "e3",
+          "name": "تركيب أو تغيير مفتاح/بريزة كهرباء",
+          "price": 50
+        },
+        {
+          "id": "e4",
+          "name": "تركيب سبوتات إضاءة ليد (القطعة)",
+          "price": 30
+        },
+        {
+          "id": "e5",
+          "name": "تغيير لوحة المفاتيح الأوتوماتيكية بالكامل",
+          "price": 600
+        }
+      ]
+    },
+    {
+      "id": "carpentry",
+      "name": "نجارة وأثاث وديكور",
+      "icon": "Hammer",
+      "description": "فك وتركيب غرف نوم، تصليح أبواب ونوافذ خشبية، صيانة مفصلات ومقابض، غرف ايكيا وسراير.",
+      "basePrice": 120,
+      "isActive": true,
+      "subServices": [
+        {
+          "id": "c1",
+          "name": "صيانة قفل باب أو تركيب كالون جديد",
+          "price": 100
+        },
+        {
+          "id": "c2",
+          "name": "تصليح باب خشب يحك بالأرض",
+          "price": 120
+        },
+        {
+          "id": "c3",
+          "name": "فك وتركيب سرير أو كمدينة واحدة",
+          "price": 150
+        },
+        {
+          "id": "c4",
+          "name": "فك وتركيب دولاب ملابس كبير",
+          "price": 400
+        },
+        {
+          "id": "c5",
+          "name": "تركيب رفوف ديكور أو براويز (البرواز)",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "ac",
+      "name": "تكييف وتبريد",
+      "icon": "Wind",
+      "description": "فك وتركيب أجهزة تكييف، شحن فريون، معالجة مشاكل تنقيط المياه، غسيل شامل للوحدات الداخلية والخارجية.",
+      "basePrice": 200,
+      "isActive": true,
+      "subServices": [
+        {
+          "id": "ac1",
+          "name": "شحن غاز فريون R22 / R410 (لكل جهاز)",
+          "price": 850
+        },
+        {
+          "id": "ac2",
+          "name": "غسيل وتنظيف التكييف بالمواد الكيميائية",
+          "price": 200
+        },
+        {
+          "id": "ac3",
+          "name": "فك ونقل تكييف من مكان لآخر",
+          "price": 500
+        },
+        {
+          "id": "ac4",
+          "name": "حل مشكلة تنقيط المياه من الوحدة الداخلية",
+          "price": 150
+        },
+        {
+          "id": "ac5",
+          "name": "تصليح كارتة أو تغيير مكثف التكييف",
+          "price": 450
+        }
+      ]
+    }
+  ],
+  "technicians": [
+    {
+      "id": "tech-1",
+      "name": "الأسطى أحمد النجار",
+      "role": "carpentry",
+      "phone": "01012345678",
+      "rating": 4.9,
+      "avatar": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?w=150&h=150&fit=crop",
+      "status": "available"
+    },
+    {
+      "id": "tech-2",
+      "name": "المهندس كريم التكييف",
+      "role": "ac",
+      "phone": "01233445566",
+      "rating": 4.8,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+      "status": "available"
+    },
+    {
+      "id": "tech-3",
+      "name": "الأسطى محمود السباك",
+      "role": "plumbing",
+      "phone": "01122334455",
+      "rating": 4.7,
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
+      "status": "busy"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk-101",
+      "customerName": "محمد عبد الله",
+      "customerPhone": "01009876543",
+      "customerAddress": "شارع التسعين، التجمع الخامس، شقة 4",
+      "serviceId": "plumbing",
+      "subServiceId": "p2",
+      "technicianId": "tech-3",
+      "date": "2026-06-15",
+      "timeSlot": "12:00 م - 02:00 م",
+      "problemDescription": "محتاج فني يركب خلاط مياه مستورد للمطبخ، وخلاط حوض الحمام يقطر مياه ومحتاج صيانة.",
+      "estimatedPrice": 280,
+      "status": "assigned",
+      "createdAt": "2026-06-12T15:30:00Z",
+      "notes": "تم التواصل وتأكيد الموعد مع العميل."
+    },
+    {
+      "id": "bk-102",
+      "customerName": "سارة أحمد",
+      "customerPhone": "01223554411",
+      "customerAddress": "حي المعادي، أبراج عثمان، الدور السادس",
+      "serviceId": "ac",
+      "subServiceId": "ac2",
+      "technicianId": "tech-2",
+      "date": "2026-06-14",
+      "timeSlot": "10:00 ص - 12:00 م",
+      "problemDescription": "تكييف غرفة النوم صوته عالي وما يبرد بانتظام، محتاجة تنظيف كامل وفحص غاز الفريون.",
+      "estimatedPrice": 200,
+      "status": "accepted",
+      "createdAt": "2026-06-13T08:15:00Z"
+    }
+  ],
+  "settings": {
+    "siteName": "AG Group للصيانة المحلية",
+    "subtitle": "أسرع وأضمن منصة لحجز فنيي الصيانة المنزلية المعتمدين بأسعار محددة وضمان حقيقي.",
+    "contactPhone": "19600",
+    "workingHours": "طوال أيام الأسبوع من الساعة 8 صباحاً حتى 11 مساءً",
+    "promoBanner": "خصم 20% على خدمات غسيل التكييف وتعبئة الفريون لفترة محدودة!",
+    "isPromoActive": true,
+    "adminUsername": "Abdullah",
+    "adminPassword": "1122003",
+    "subSilverPrice": 150,
+    "subGoldPrice": 1500,
+    "subPlatinumPrice": 1000,
+    "whatsappNumber": "01271762299",
+    "lastUpdatedAt": 1782597838382
+  },
+  "subscriptions": []
+}
